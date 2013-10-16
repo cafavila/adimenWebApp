@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset=utf-8"/>
+    <title>AdimenTech</title>
+    <meta name="viewport" content="width-device-width, inicial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" />
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" />
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" />
+    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css" />
+    <style type="text/css">
+        /* Large Desktop */
+        @media (min-width:980px) 
+        {
+            body 
+            { 
+                padding-top: 60px;
+            }
+            .linediv-l 
+            { 
+                border-right: 1px white solid;
+            }
+            .linediv-r 
+            { 
+                border-left: 1px white solid;
+            }
+        }
+        /* Landscope phones and down */
+        @media (max-width:480px) 
+        {
+            .copy 
+            { 
+                padding: 2.5% 10%;
+            }
+            .linediv-l 
+            { 
+                border-bottom: 1px white solid;
+            }
+            .linediv-r 
+            { 
+                border-top: 1px white solid;
+            }
+        }
+        /* Estilo Base */
+        /* Cabecera y cuerpo Principal */
+        body 
+        { 
+            font-family: 'Open-Sans', Helvetica, Arial, sans-serif;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            background-color: black;
+        }
+        section .container 
+        { 
+            background-color: white;
+        }
+        .section1 
+        { 
+            background-color: orange;
+          /* color: white; */
+        }
+        .section2 
+        { 
+            background-color: antiquewhite;
+        }
+        .heading, .subheading 
+        { 
+            font-family: 'Ubuntu', helvetica, Arial, sans-serif;
+            text-align: center;
+            margin-top: 8.5px;
+        }
+        p.lead 
+        { 
+            padding-top: 1.5%;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        p 
+        { 
+            font-size: 18px;
+            line-height: 24px;
+        }
+        /* Video Pitch and Action */
+        .pitch 
+        { 
+            padding: 2.5% 0%;
+        }
+        .order 
+        { 
+            padding: 2% 0%;
+        }
+        .actions 
+        { 
+            background-color: #343434;
+            padding: 3% 0%;
+        }
+        .video, .thermometer, .order, .social, .statistics
+        { 
+            border: 1px dotted;
+            text-align: center;
+        }
+        .statistics h3, .statistics p 
+        { 
+            color: white;
+        }
+        /* Marketing Copy and Footer */
+        .copy 
+        { 
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            text-align: justify;
+        }
+        .asset 
+        { 
+            padding: 2.5% 0%;
+        }
+        /* Footer */
+        .footer 
+        { 
+            color: #cccccc;
+            text-align: center;
+        }
+        .footer p 
+        { 
+            font-size: 11px;
+        }
+        .footer a 
+        { 
+            color: #ccccff;
+        }
+        div.row 
+        { 
+            border: 1px solid;
+        }
+        .container 
+        { 
+            width: 960px;
+        }
+        /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */
+        div.addthis_toolbox 
+        {
+            width: 180px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Mobile-frendly navbar adapted from example -->
+    <!-- http://twitter.github.io/boostrap/examples/starter-template.html -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="#">AdimenTech</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li><a href="#">Acerca de...</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <section>
+    <div class="container">
+        <!-- Fuentes de origen Google -->
+        <!-- www.google.com/fonts/specimen/Ubuntu -->
+        <!-- www.google.com/fonts/specimen/Ubuntu#pairing -->
+        <div class="row-fluid heading">
+            <div class="span12">
+                <h1>Adimen Labs</h1>
+            </div>
+        </div>
+        <div class="row-fluid subheading">
+            <div class="span12">
+                <!-- Fuente especial para el paragrafo 'lead' extraida desde Bootstrap -->
+                <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
+                <p>Si necesita destacar en la nube. Para todo lo que usted necesite.</p>
+                <p class="lead">Hagalo con inteligencia, hagalo con Adimen.</p>
+            </div>
+        </div>
+        <div class="row-fluid pitch">
+            <div class="span5 offset1 video">
+                <img class="img-polaroid" src="http://placehold.it/480x300" alt="Video" /> 
+            </div>
+            <!-- Se agrega una nueva seccion div para agregar estadisticas, ordenes y boton de compartir -->
+            <div class="span5 actions">
+                <div class="span8 offset2">
+                    <div class="statistics">
+                        <p>Contactenos.</p>
+                        <p>Aceptamos Donaciones para desarrollar tecnologia innovadora.</p>
+                    </div>
+                </div>
+                <!-- Bootstrap progress bar -->
+                <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+                <div class="span10 offset1">
+                    <div class="thermomiter progress active">
+                        <div class="bar bar-success" style="width: 10%;"></div>
+                        <div class="bar bar-warning" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <!-- Bootstrap Buttons Standard -->
+                <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+                <div class="span6 offset3 order">
+                    <!--<button class="btn btn-success btn-large">Preorden</button>-->
+                    <a class="coinbase-button" data-code="e5c9c3403c6675d77ecb711602eb3777" data-button-style="custom_small" data-button-text="Pague con Bitcoin" href="https://coinbase.com/checkouts/e5c9c3403c6675d77ecb711602eb3777">Pague con Bitcoin</a>
+                    <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+                </div>
+                <!-- Se incluyen botones de acceso a redes sociales -->
+                <div class="span8 offset2 social">
+                    <!-- AddThis Button BEGIN -->
+                    <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                        <a class="addthis_button_preferred_1"></a>
+                        <a class="addthis_button_preferred_2"></a>
+                        <a class="addthis_button_preferred_3"></a>
+                        <a class="addthis_button_preferred_4"></a>
+                        <a class="addthis_button_compact"></a>
+                        <a class="addthis_counter addthis_bubble_style"></a>
+                    </div>
+                    <script type="text/javascript">var addthis_config = { "data_track_addressbar": true };</script>
+                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-521ccfb51841c0b9"></script>
+                    <!-- AddThis Button END -->
+                </div>
+            </div>
+        </div>
+        <!-- http://twitter.github.oi/bootstrap/base-css.html#images -->
+        <!-- http://placehold.it -->
+        <div class="row-fluid section1">
+            <div class="span5 offset1 asset">
+                <img class="img-polaroid" src="http://placehold.it/480x300" />
+            </div>
+            <div class="span5 copy">
+                <p>
+                    Hoy en dia las empresas necesitan desarrollar al maximo su potencialidad, ofreciendo el mejor servicio a sus clientes. La tecnologia es una 
+                    herramienta fundamental para llevar adelante los desafios que los mercados exigen a todas las empresas. Para enfrentar de mejor manera los
+                    desafios que tiene a diario su empresa, hagase asesorar por los mejores. Hagalo con Inteligencia!! Hagalo con Adimen.!!
+                </p>
+            </div>
+        </div>
+        <div class="row-fluid section2">
+            <div class="span5 offset1 copy copy-rigth">
+                <p>Adimen es una empresa especialista en tecnologias de la Informacion y esta a la vanguardia para ofrecer los mejores servicios que necesita
+                    su empresa para poder desempeñar de mejor manera su labor. Desarrollamos WebApp con tecnologia de punta y con los mas altos standares de 
+                    calidad. Cuando tenga que escoger un socio tecnologia, Hagalo con Inteligencia!! Hagalo con Adimen!!!
+                </p>
+            </div>
+            <div class="span5 asset">
+                <img class="img-polaroid" src="http://placehold.it/480x300" />
+            </div>
+        </div>
+        <!-- Se agrega funcionalidad js para manejar el acordion -->
+        <!-- Se utilizan las dependencias de jquery.js y bootstrap.js -->
+        <!-- http://twitter.github.oi/bootstrap/javascript.html#collapse -->
+        <div class="row.fluid faq">
+            <div class="span10 offset1">
+                <h3>FAQ</h3>
+                <div class="accordion" id="accordion2">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Que Necesitas Saber? Preguntas Frecuentes</a>
+                        </div>
+                        <div class="accordion-body collapse" id="collapseOne">
+                            <div class="accordion-inner">
+                                Preguntas Frecuentes
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Quien es el que mas Pregunta?</a>
+                        </div>
+                        <div class="accordion-body collapse" id="collapseTwo">
+                            <div class="accordion-inner">
+                                La pregunta mas frecuente de los usuarios es??
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="row-fluid pitch">
+            <div>
+                <h3>SandBox Section</h3>
+                <p>Area para probar y jugar</p>
+                <div>
+
+                </div>
+            </div>
+        </section>
+        <!-- No es lo primordial péro hay que colocar el copyrigth -->
+        <!-- http://creativecommons.org/licences/ -->
+        <div class="row-fluid footer">
+            <div class="span12">
+                <p>Desarrollo por <a href="http://www.adimen.cl">ADIMEN SpA</a>. 2013 &copy; Santiago - Chile</p>
+            </div>
+        </div>
+    </div>
+    <!-- =================== zona de script =================== -->
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <script src="js/adiscript.js"
+</body>
+</html>
