@@ -1,8 +1,10 @@
 {
    "name" : "AdimenWebApp",
    "description" : "Web de prueba de aplicaciones web de Adimen",
-   "version" : "0.0.1",
+   "version" : "0.0.2",
+   "mantencion": "Se agrega node como servidor de aplicaciones",
    "private" : true,
+   "scripts" : { "start" : "node principal.js" },
    "dependencies" : 
    {
       "express" : "3.x",

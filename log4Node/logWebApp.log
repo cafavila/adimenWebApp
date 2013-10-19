@@ -1,0 +1,13 @@
+2013/09/05 21:47:58.374 **** Servidor iniciado **** 
+2013/09/05 21:48:03.372_ ===> 127.0.0.1 GET localhost:3000/
+2013/09/05 21:48:03.407_ ===> 127.0.0.1 GET localhost:3000/css/bootstrap.min.css
+2013/09/05 21:48:03.418_ ===> 127.0.0.1 GET localhost:3000/css/adistyle.css
+2013/09/05 21:48:03.421_ ===> 127.0.0.1 GET localhost:3000/js/adiscript.js
+2013/09/05 21:48:13.171_ ===> 127.0.0.1 GET localhost:3000/jqueryTutorial.html
+2013/09/05 21:48:16.558_ ===> 127.0.0.1 GET localhost:3000/jqueryTutorial.html
+2013/09/05 21:48:20.485_ ===> 127.0.0.1 GET localhost:3000/adStreamming.html
+2013/09/05 22:04:22.189_ ===> 127.0.0.1 GET localhost:3000/adStreamming.html
+2013/09/05 22:04:26.89_ ===> 127.0.0.1 GET localhost:3000/jqueryTutorial.html
+2013/09/05 22:04:26.198_ ===> 127.0.0.1 GET localhost:3000/css/jqueryTuto.css
+2013/09/05 22:18:50.991_ ===> 127.0.0.1 GET localhost:3000/jqueryTutorial.html
+2013/09/05 22:18:51.7_ ===> 127.0.0.1 GET localhost:3000/css/jqueryTuto.css
